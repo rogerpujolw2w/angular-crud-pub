@@ -1,0 +1,18 @@
+<form>
+  <p><label for="nombre">nombre: </label> </p>
+  <p><input type="text" id="nombre" [(ngModel)]= userData.nombre name="nombre"></p>
+  <p><label for="genero">genero: </label> </p>
+  <p><input type="text" id="genero" [(ngModel)]= userData.genero name="genero"></p>
+  <p><label for="activo">activo: </label> </p>
+  <p><input type="text" id="activo" [(ngModel)]= userData.activo name="activo"></p>
+  <p><label for="email">email: </label> </p>
+  <p><input type="text" id="email" [(ngModel)]= userData.email name="email"></p>
+  <p><label for="direccion">direccion: </label> </p>
+  <p><input type="text" id="direccion" [(ngModel)]= userData.direccion name="direccion"></p>
+  <p><label for="poblacion">poblacion: </label> </p>
+  <p><input type="text" id="poblacion" [(ngModel)]= userData.poblacion name="poblacion"></p>
+  <p><label for="telefono"> telefono: </label> </p>
+  <p><input type="text" id="telefono" [(ngModel)]= userData.telefono name="telefono"></p>
+  <p><input type="button" (click)="addMember()" value="Añadir Miembro"></p>
+</form>
+

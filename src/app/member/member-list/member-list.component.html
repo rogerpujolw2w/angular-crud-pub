@@ -1,0 +1,8 @@
+<ul *ngFor="let member of members ">
+ <li><a [routerLink]="['/members',member.id]" routerLinkActive="router-link-active" >{{member.nombre}}</a>
+     <button (click)=deleteMember(member.id)>delete</button></li>
+</ul>
+
+
+<button [routerLink]="['/addMember']">Añadir miembro</button>
+
